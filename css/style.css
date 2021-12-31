@@ -820,6 +820,7 @@ portfolio section
 	min-height: 100vh;
 }
 .portfolio-section .section-title{
+	margin-top: 10vh;
 	margin-bottom: 40px;
 }
 .portfolio-section .portfolio-filter{
@@ -869,7 +870,8 @@ portfolio section
 }
 .portfolio-section .portfolio-item-img img{
 	border-radius: 5px;
-	width: 100%;
+	width: 500px;
+	height: 25vh;
 	transition: all 0.3s ease;
 }
 .portfolio-section .portfolio-item-inner:hover .portfolio-item-img img{
@@ -1179,11 +1181,10 @@ testimonial section
 	margin: 0 0 30px;
 }
 .testimonial-section .testi-item img{
-	max-width: 70px;
+	max-width: 550px;
 	display: inline-block;
 	width: 100%;
-	border-radius: 50%;
-	max-height: 70px;
+	max-height: 416px;
 }
 .testimonial-section .testi-item span{
 	display: block;
